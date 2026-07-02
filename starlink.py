@@ -99,7 +99,7 @@ def fetch_portal():
     else:
         print(f"\n{r}[❌] Portal URL ကို ဖမ်းမမိပါ။ အင်တာနက် ပွင့်နေသလား ပြန်စစ်ပါ။{w}")
 
-if name == 'main':
+if __name__ == '__main__':
     try:
         fetch_portal()
     except KeyboardInterrupt:
